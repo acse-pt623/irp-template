@@ -1,8 +1,8 @@
-report.pdf: report.tex report-template.cls references.bib figures/*
+report.pdf: clean pt623-project-plan.tex report-template.cls references.bib figures/*
 	make force
 
 force:
-	latexmk -pdf report.tex
+	latexmk -pdf pt623-project-plan.tex
 
 clean:
 	rm -f *.pdf

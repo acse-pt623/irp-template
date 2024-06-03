@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.28)  30 MAY 2024 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.28)  3 JUN 2024 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report.tex
-(./report.tex
+**pt623-project-plan.tex
+(./pt623-project-plan.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (./report-template.cls
@@ -428,8 +428,8 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box56
 )
-(./report.aux)
-\openout1 = `report.aux'.
+(./pt623-project-plan.aux)
+\openout1 = `pt623-project-plan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
@@ -509,9 +509,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 26.
 
-(./report.out) (./report.out)
+(./pt623-project-plan.out) (./pt623-project-plan.out)
 \@outlinefile=\write3
-\openout3 = `report.out'.
+\openout3 = `pt623-project-plan.out'.
 
 LaTeX Info: Redefining \microtypecontext on input line 26.
 Package microtype Info: Applying patch `item' on input line 26.
@@ -536,50 +536,50 @@ Package microtype Info: Loading generic protrusion settings for font family
  [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (/usr/local/texlive/20
-24/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 
+      [1] (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<./figures/experiment.jpg, id=31, 124.465pt x 219.82124pt>
+<./figures/experiment.jpg, id=74, 124.465pt x 219.82124pt>
 File: ./figures/experiment.jpg Graphic file (type jpg)
 <use ./figures/experiment.jpg>
-Package pdftex.def Info: ./figures/experiment.jpg  used on input line 53.
+Package pdftex.def Info: ./figures/experiment.jpg  used on input line 66.
 (pdftex.def)             Requested size: 91.04742pt x 160.80357pt.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.61 \begin{lstlisting}[language=Python]
-                                         [1]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2 <./figures/experiment.jpg>]
-(./report.bbl
+ [2]
+[3 <./figures/experiment.jpg>] (./pt623-project-plan.bbl
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 7.
-) [3] (./report.aux)
+ [4] [5]) [6]
+(./pt623-project-plan.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `report.out' has not changed.
+Package rerunfilecheck Info: File `pt623-project-plan.out' has not changed.
 (rerunfilecheck)             Checksum: D8CDBE15C5EDCE9238FDFB6D9F079726;445.
  ) 
 Here is how much of TeX's memory you used:
- 16890 strings out of 474116
- 282927 string characters out of 5743682
- 1961187 words of memory out of 5000000
- 39025 multiletter control sequences out of 15000+600000
+ 16947 strings out of 474116
+ 284284 string characters out of 5743682
+ 1964187 words of memory out of 5000000
+ 39053 multiletter control sequences out of 15000+600000
  575048 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,6n,93p,1003b,1405s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,93p,1376b,1405s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
@@ -588,10 +588,10 @@ r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 ocal/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
 xlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (4 pages, 87928 bytes).
+Output written on pt623-project-plan.pdf (7 pages, 103558 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
  11310 words of extra memory for PDF output out of 12000 (max. 10000000)
 

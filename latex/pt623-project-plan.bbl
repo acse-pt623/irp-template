@@ -1,0 +1,163 @@
+\begin{thebibliography}{10}
+
+\bibitem{altman1992introduction}
+Naomi~S Altman.
+\newblock An introduction to kernel and nearest-neighbor nonparametric
+  regression.
+\newblock {\em The American Statistician}, 46(3):175--185, 1992.
+
+\bibitem{Asteriou2016ARIMAMA}
+Dimitrios Asteriou and Stephen~G. Hall.
+\newblock Arima models and the box-jenkins methodology.
+\newblock 2016.
+
+\bibitem{behmiri2015role}
+Niaz~Bashiri Behmiri and Matteo Manera.
+\newblock The role of outliers and oil price shocks on volatility of metal
+  prices.
+\newblock {\em Resources Policy}, 46:139--150, 2015.
+
+\bibitem{bengio1994learning}
+Yoshua Bengio, Patrice Simard, and Paolo Frasconi.
+\newblock Learning long-term dependencies with gradient descent is difficult.
+\newblock {\em IEEE transactions on neural networks}, 5(2):157--166, 1994.
+
+\bibitem{breiman2001random}
+Leo Breiman.
+\newblock Random forests.
+\newblock {\em Machine learning}, 45:5--32, 2001.
+
+\bibitem{BUNCIC20151}
+Daniel Buncic and Carlo Moretto.
+\newblock Forecasting copper prices with dynamic averaging and selection
+  models.
+\newblock {\em The North American Journal of Economics and Finance}, 33:1--38,
+  2015.
+
+\bibitem{chen2007narx}
+Sheng Chen, XX~Wang, and Chris~J Harris.
+\newblock Narx-based nonlinear system identification using orthogonal least
+  squares basis hunting.
+\newblock {\em IEEE Transactions on Control Systems Technology}, 16(1):78--84,
+  2007.
+
+\bibitem{ciner2017predicting}
+Cetin Ciner.
+\newblock Predicting white metal prices by a commodity sensitive exchange rate.
+\newblock {\em International Review of Financial Analysis}, 52:309--315, 2017.
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20:273--297, 1995.
+
+\bibitem{diaconescu2008use}
+Eugen Diaconescu.
+\newblock The use of narx neural networks to predict chaotic time series.
+\newblock {\em Wseas Transactions on computer research}, 3(3):182--191, 2008.
+
+\bibitem{diaz2020random}
+Juan~D D{\'\i}az, Erwin Hansen, and Gabriel Cabrera.
+\newblock A random walk through the trees: Forecasting copper prices using
+  decision learning methods.
+\newblock {\em Resources Policy}, 69:101859, 2020.
+
+\bibitem{frankel2010determinants}
+Jeffrey~A Frankel and Andrew~K Rose.
+\newblock Determinants of agricultural and mineral commodity prices.
+\newblock {\em HKS Faculty Research Working Paper Series}, 2010.
+
+\bibitem{frigola2013integrated}
+Roger Frigola and Carl~Edward Rasmussen.
+\newblock Integrated pre-processing for bayesian nonlinear system
+  identification with gaussian processes.
+\newblock In {\em 52nd IEEE Conference on Decision and Control}, pages
+  5371--5376. IEEE, 2013.
+
+\bibitem{han2022r}
+Xuyuan Han, Zhenya Liu, and Shixuan Wang.
+\newblock An r-vine copula analysis of non-ferrous metal futures with
+  application in value-at-risk forecasting.
+\newblock {\em Journal of Commodity Markets}, 25:100188, 2022.
+
+\bibitem{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
+\bibitem{10159241}
+Fei Li, Hanlu Zhou, Min Liu, and Leiming Ding.
+\newblock A medium to long-term multi-influencing factor copper price
+  prediction method based on cnn-lstm.
+\newblock {\em IEEE Access}, 11:69458--69473, 2023.
+
+\bibitem{li2019enhancing}
+Shiyang Li, Xiaoyong Jin, Yao Xuan, Xiyou Zhou, Wenhu Chen, Yu-Xiang Wang, and
+  Xifeng Yan.
+\newblock Enhancing the locality and breaking the memory bottleneck of
+  transformer on time series forecasting.
+\newblock {\em Advances in neural information processing systems}, 32, 2019.
+
+\bibitem{lin1996learning}
+Tsungnan Lin, Bill~G Horne, Peter Tino, and C~Lee Giles.
+\newblock Learning long-term dependencies in narx recurrent neural networks.
+\newblock {\em IEEE transactions on neural networks}, 7(6):1329--1338, 1996.
+
+\bibitem{8848203}
+Saloni Mohan, Sahitya Mullapudi, Sudheer Sammeta, Parag Vijayvergia, and
+  David~C. Anastasiu.
+\newblock Stock price prediction using news sentiment analysis.
+\newblock In {\em 2019 IEEE Fifth International Conference on Big Data
+  Computing Service and Applications (BigDataService)}, pages 205--208, 2019.
+
+\bibitem{ozdemir2022medium}
+Ali~Can Ozdemir, Kurtulu{\c{s}} Bulu{\c{s}}, and Kas{\i}m Zor.
+\newblock Medium-to long-term nickel price forecasting using lstm and gru
+  networks.
+\newblock {\em Resources Policy}, 78:102906, 2022.
+
+\bibitem{qin2017dualstage}
+Yao Qin, Dongjin Song, Haifeng Chen, Wei Cheng, Guofei Jiang, and Garrison
+  Cottrell.
+\newblock A dual-stage attention-based recurrent neural network for time series
+  prediction, 2017.
+
+\bibitem{qu2019unfolding}
+Qiushi Qu, Limao Wang, Zhi Cao, Shuai Zhong, Chufu Mou, Yanzhi Sun, and Chenran
+  Xiong.
+\newblock Unfolding the price effects of non-ferrous industry chain on economic
+  development: A case study of yunnan province.
+\newblock {\em Resources Policy}, 61:1--20, 2019.
+
+\bibitem{shi2015convolutional}
+Xingjian Shi, Zhourong Chen, Hao Wang, Dit-Yan Yeung, Wai-Kin Wong, and
+  Wang-chun Woo.
+\newblock Convolutional lstm network: A machine learning approach for
+  precipitation nowcasting.
+\newblock {\em Advances in neural information processing systems}, 28, 2015.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
+
+\bibitem{whittle1951hypothesis}
+Peter Whittle.
+\newblock Hypothesis testing in time series analysis.
+\newblock {\em (No Title)}, 1951.
+
+\bibitem{ZHANG2021102189}
+Hong Zhang, Hoang Nguyen, Diep-Anh Vu, Xuan-Nam Bui, and Biswajeet Pradhan.
+\newblock Forecasting monthly copper price: A comparative study of various
+  machine learning-based methods.
+\newblock {\em Resources Policy}, 73:102189, 2021.
+
+\bibitem{zhong2019time}
+Meirui Zhong, Ruifang He, Jinyu Chen, and Jianbai Huang.
+\newblock Time-varying effects of international nonferrous metal price shocks
+  on china’s industrial economy.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  528:121299, 2019.
+
+\end{thebibliography}
