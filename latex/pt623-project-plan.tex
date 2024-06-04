@@ -6,7 +6,124 @@
 % Packages I use in my report.
 \usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{blindtext}
+\usepackage{pgfgantt}
+\usepackage{bm}
+
+\usepackage{setspace}
+\linespread{1.1}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+% tables
+\usepackage{booktabs}
+
+% units
+\usepackage{siunitx}
+
+% chemical formula
+\usepackage{chemformula}
+
+% enumerate
+\usepackage{enumerate}
+
+% for subfigures
+\usepackage{caption}
+\usepackage{subcaption}
+
+% colours
+%\usepackage{xcolor} %already loaded in cls
+\definecolor{orange}{RGB}{255,127,0}
+\definecolor{cool_blue}{RGB}{0,62,116}
+\definecolor{light_blue}{RGB}{212,239,252}
+\definecolor{cool_blue}{RGB}{0,110,175}
+
+%python colours
+\definecolor{pyblue}{HTML}{1F77B4}
+\definecolor{pyorange}{HTML}{FF7F0E}
+\definecolor{pygreen}{HTML}{2CA02C}
+\definecolor{pyred}{HTML}{D62728}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\usepackage{pgfgantt} % for Gantt Chart
+
+\ganttset{calendar week text={Wk~\currentweek}}
+\newganttchartelement{orangebar}{
+    orangebar/.style={
+        inner sep=0pt,
+        draw=pyorange,
+        fill=pyorange, 
+        very thick%,
+        %top color=white,
+        %bottom color=pyorange!80
+    },
+    orangebar label font=\slshape,
+    orangebar left shift=.1,
+    orangebar right shift=-.1
+}
+
+\newganttchartelement{bluebar}{
+    bluebar/.style={
+        inner sep=0pt,
+        draw=pyblue,
+        very thick,
+        fill=pyblue
+        %top color=white,
+        %bottom color=blue!80
+    },
+    bluebar label font=\slshape,
+    bluebar left shift=.1,
+    bluebar right shift=-.1
+}
+
+\newganttchartelement{greenbar}{
+    greenbar/.style={
+        inner sep=0pt,
+        draw=pygreen,
+        very thick,
+        fill = pygreen
+        %top color=white,
+        %bottom color=green!80
+    },
+    greenbar label font=\slshape,
+    greenbar left shift=.1,
+    greenbar right shift=-.1
+}
+
+\newganttchartelement{redbar}{
+    redbar/.style={
+        inner sep=0pt,
+        draw=pyred,
+        very thick%,
+        %top color=white,
+        %bottom color=pyred!80
+    },
+    redbar label font=\slshape,
+    redbar left shift=.1,
+    redbar right shift=-.1
+}
 
 % Directory where I saved my figures.
 \graphicspath{{./figures/}}
@@ -77,6 +194,65 @@ Finally, copper prices are also influenced by other related products such as alu
     
     \item \textbf{Possible Extended Research:} Explore the application of the model to the forecasting of other commodities or consider the influence of other external factors on the forecasting of copper prices, and provide directions for future research.
 \end{enumerate}
+
+\resizebox{\textwidth}{!}{
+\begin{ganttchart}[
+    hgrid style/.style={black, dotted},
+    vgrid style/.style={*5{black,dotted}, *1{black, dotted}, *1{black, dashed}},
+    x unit=2.3mm,
+    y unit chart=9mm,
+    y unit title=10mm,
+    time slot format=isodate,
+    group label font=\bfseries \small,
+    link/.style={->, thick}
+    ]{2024-05-27}{2024-08-30}
+    \gantttitlecalendar{year, month=name, week}\\
+
+    \ganttgroup[
+        group/.append style={fill=orange}
+    ]{Current Progress}{2024-05-27}{2024-07-10}\\ [grid]
+    \ganttorangebar[
+        name=DataCollection
+    ]{Data Collection}{2024-05-27}{2024-06-05}\\ [grid]
+    \ganttorangebar[
+        name=EDA
+    ]{Exploratory Data Analysis (EDA)}{2024-06-06}{2024-06-12}\\ [grid]
+    \ganttorangebar[
+        name=FeatureEngineering
+    ]{Feature Engineering}{2024-06-13}{2024-06-19}\\ [grid]
+    \ganttorangebar[
+        name=LSTM
+    ]{LSTM Model Construction}{2024-06-20}{2024-06-26}\\ [grid]
+    \ganttorangebar[
+        name=PredictionAnalysis
+    ]{Analysis of Prediction Results}{2024-06-27}{2024-06-28}\\ [grid]
+    \ganttorangebar[
+        name=SentimentAnalysis
+    ]{Sentiment Analysis Model Integration}{2024-07-04}{2024-07-6}
+
+    \ganttnewline[thick, black]
+
+    \ganttgroup[
+        group/.append style={fill=blue}
+    ]{Future Plan}{2024-07-6}{2024-08-30} \\[grid]
+    \ganttbluebar[
+        name=ModelOptimization
+    ]{Model Optimization}{2024-07-6}{2024-07-20}\\ [grid]
+    \ganttbluebar[
+        name=SentimentImprovement
+    ]{Sentiment Analysis Model Improvement}{2024-07-6}{2024-07-13}\\ [grid]
+    \ganttbluebar[
+        name=Transformer
+    ]{Transformer Model Construction}{2024-07-13}{2024-08-09}\\ [grid]
+    \ganttbluebar[
+        name=Comparison
+    ]{Comparison and Analysis of Results}{2024-08-10}{2024-08-19}\\ [grid]
+    \ganttbluebar[
+        name=Report
+    ]{Project Summary and Report}{2024-08-20}{2024-08-30}
+    
+\end{ganttchart}
+}
 
 % References
 \bibliographystyle{plain}
