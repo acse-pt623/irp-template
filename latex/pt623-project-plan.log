@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.28)  4 JUN 2024 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.28)  4 JUN 2024 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,38 +1083,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 
-       [1] [2]
-Overfull \hbox (30.00768pt too wide) in paragraph at lines 198--256
+l.161 
+       [1]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
+74.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+[2] [3]
+Overfull \hbox (30.00768pt too wide) in paragraph at lines 227--285
 [][] 
  []
 
 (./pt623-project-plan.bbl
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 7.
- [3] [4]) [5] (./pt623-project-plan.aux)
+ [4] [5]) [6] (./pt623-project-plan.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `pt623-project-plan.out' has not changed.
-(rerunfilecheck)             Checksum: C29171EA79FEA4D1725FAB93A9E98E25;315.
+(rerunfilecheck)             Checksum: E36B7C9E2FF17C2AF8300D822B7BACE0;717.
  ) 
 Here is how much of TeX's memory you used:
- 35713 strings out of 474116
- 757634 string characters out of 5743682
+ 35764 strings out of 474116
+ 758429 string characters out of 5743682
  1954187 words of memory out of 5000000
- 57544 multiletter control sequences out of 15000+600000
- 573954 words of font info for 55 fonts, out of 8000000 for 9000
+ 57586 multiletter control sequences out of 15000+600000
+ 576506 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,117p,1376b,1035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on pt623-project-plan.pdf (6 pages, 53376 bytes).
+Output written on pt623-project-plan.pdf (7 pages, 55745 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 4645 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 6205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

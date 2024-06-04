@@ -149,10 +149,12 @@
 Copper is an indispensable raw material in modern industry and is widely used in a variety of sectors, including power electronics, household appliances, transportation and energy, machinery manufacturing and construction. However, as copper is both a commodity and a financial product, its price forecasting becomes exceptionally complex. This study aims to improve copper price forecasting by considering a range of influencing factors, including global supply and demand, energy costs, financial indicators and related commodity prices. Traditional econometric models such as ARIMA and ARMA have limitations in capturing nonlinear features in price changes. Therefore, we explore advanced machine learning models such as LSTM and the attention mechanism transformer. inspired by the success of the attention mechanism transformer in the field of natural language processing and image processing, we propose to use a transformer-like model incorporating a multi-head attention mechanism to capture feature-level interdependencies. In addition, we will incorporate sentiment analysis information from social media to improve prediction accuracy. This approach aims to provide a more robust and interpretable model for copper price forecasting. In the future, it is hoped that this model can be applied to other commodity forecasts.
 % Introduction section
 \section{Introduction}
+\subsection{Problem description}
 Oil and metals are crucial raw material and strategic resource for national economic development and energy industry. As a kind of vital raw materials, metals find wide applications in power electronics, household appliances, transportation energy, machinery manufacturing, and construction.~\cite{zhong2019time, qu2019unfolding, han2022r} Especially, copper which is a key industrial raw material, the global demand for it has continued to increase worldwide. Its electrical conductivity in electrical equipment, corrosion resistance in construction and versatility in manufacturing make it an indispensable resource.
 
 \noindent However, copper is more than just an industrial raw material. Its trading in the commodity market also gives it the attributes of a financial product. This has made the forcasting of copper prices more complicated and difficult to control. Various factors such as supply and demand in the market, political factors, economic policies, and speculative behaviors can affect the price fluctuation of copper, which increases the difficulty of price forecasting.
 
+\subsection{Iterature review}
 \noindent Based on the complexity of copper prices, this study will consider a variety of influencing factors to forecast market changes in copper prices. First, as a commodity, global supply and demand, as well as the cost of energy for smelting and production, will influence the medium- to long-term trend of non-ferrous metal prices. Specifically, we consider coal prices, gasoline prices, crude oil prices, and natural gas prices~\cite{behmiri2015role}.
 Second, as a financial product, copper's price fluctuations are also influenced by a variety of financial factors. We will consider factors such as the U.S. dollar exchange rate, consumer indices, and price levels. These include the GDP and EURUSD exchange rates, price conditions in the LME and COMEX markets, the U.S. Dow Jones Industrial Average, the price of Brent crude oil, gold, silver and iron ore futures, as well as the U.S. Dollar Index, and the U.S. Dollar to Renminbi (USD/CNY) and Australian Dollar (USD/AUD) exchange rates~\cite{frankel2010determinants, ciner2017predicting}.
 Finally, copper prices are also influenced by other related products such as aluminum prices, gold prices, lead prices, iron ore prices, zinc prices, tin prices, silver prices and nickel prices. Price fluctuations in these products tend to have a strong correlation with the price of copper. Specifically, we take into account price movements of other major commodities in the international markets as well as relevant financial indicators~\cite{ozdemir2022medium, BUNCIC20151}.
@@ -164,6 +166,33 @@ Finally, copper prices are also influenced by other related products such as alu
 \noindent Recently, attention mechanisms have achieved great success in the fields of natural language processing and image processing. Especially in the field of natural language processing, the emergence of Transformer~\cite{li2019enhancing, vaswani2017attention} has contributed to the epochal achievement of large language models such as GPT. Inspired by this, we plan to try to use a model similar to Transformer to handle time series forecasting of copper prices. We will innovatively try to use a multi-attention mechanism to extract feature-level interdependencies instead of focusing only on time-level dependencies refering on DA-LSTM~\cite{qin2017dualstage}.This will help to explain and understand the impact of individual factors on price.
 
 \noindent In addition, this study also plans to use information from social media to assist in predicting copper prices. Referring to studies such as “Sentiment Analysis with LSTM - NLTK”~\cite{8848203}, we introduce the element of sentiment analysis into the model to analyze the tendency of sentiment on social media in order to further improve the accuracy of the prediction.
+
+\subsection{Objectives}
+
+1. \textbf{Data Selection and Factor Identification}:
+   \begin{itemize}
+      \item \textbf{Screening Data}: Identify and collect relevant datasets that influence copper prices.
+      \item \textbf{Identifying Usable Factors}: Determine key factors affecting copper price fluctuations.
+   \end{itemize}
+
+2. \textbf{Model Construction}:
+   \begin{itemize}
+      \item \textbf{LSTM Model}: Develop and train an LSTM network for accurate copper price predictions.
+      \item \textbf{Transformer Model}: Implement a Transformer-like model with a multi-head attention mechanism to capture feature-level interdependencies.
+   \end{itemize}
+
+3. \textbf{Sentiment Analysis Integration}:
+   \begin{itemize}
+      \item \textbf{Sentiment Analysis}: Integrate social media sentiment analysis to improve prediction accuracy.
+   \end{itemize}
+
+4. \textbf{Performance Comparison}:
+   \begin{itemize}
+      \item \textbf{Baseline Model Comparison}: Compare the performance of advanced models (LSTM and Transformer) with traditional models like ARIMA and ARMA.
+      \item \textbf{Improvement Assessment}: Evaluate improvements in prediction accuracy over baseline models.
+   \end{itemize}
+
+By achieving these objectives, the study aims to develop a robust and accurate model for predicting copper prices.
 
 \section{Progress date}
 \begin{enumerate}
