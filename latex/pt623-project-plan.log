@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.28)  4 JUN 2024 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.28)  12 JUN 2024 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,8 +1095,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[2] [3]
-Overfull \hbox (30.00768pt too wide) in paragraph at lines 227--285
+[2]
+<./figures/LSTM.png, id=101, 867.24pt x 433.62pt>
+File: ./figures/LSTM.png Graphic file (type png)
+<use ./figures/LSTM.png>
+Package pdftex.def Info: ./figures/LSTM.png  used on input line 201.
+(pdftex.def)             Requested size: 204.85846pt x 102.42342pt.
+<./figures/LSTM_zoomed.png, id=103, 867.24pt x 433.62pt>
+File: ./figures/LSTM_zoomed.png Graphic file (type png)
+<use ./figures/LSTM_zoomed.png>
+Package pdftex.def Info: ./figures/LSTM_zoomed.png  used on input line 208.
+(pdftex.def)             Requested size: 204.85846pt x 102.42342pt.
+<./figures/transformer.png, id=104, 714.0276pt x 395.3169pt>
+File: ./figures/transformer.png Graphic file (type png)
+<use ./figures/transformer.png>
+Package pdftex.def Info: ./figures/transformer.png  used on input line 217.
+(pdftex.def)             Requested size: 204.85846pt x 113.41444pt.
+<./figures/transformer_zoomed.png, id=105, 723.4227pt x 395.3169pt>
+File: ./figures/transformer_zoomed.png Graphic file (type png)
+<use ./figures/transformer_zoomed.png>
+Package pdftex.def Info: ./figures/transformer_zoomed.png  used on input line 2
+24.
+(pdftex.def)             Requested size: 204.85846pt x 111.94263pt.
+ [3 <./figures/LSTM.png> <./figures/LSTM_zoomed.png> <./figures/transformer.png
+> <./figures/transformer_zoomed.png>]
+Overfull \hbox (30.00768pt too wide) in paragraph at lines 264--325
 [][] 
  []
 
@@ -1112,20 +1135,20 @@ Package rerunfilecheck Info: File `pt623-project-plan.out' has not changed.
 (rerunfilecheck)             Checksum: E36B7C9E2FF17C2AF8300D822B7BACE0;717.
  ) 
 Here is how much of TeX's memory you used:
- 35764 strings out of 474116
- 758429 string characters out of 5743682
- 1954187 words of memory out of 5000000
- 57586 multiletter control sequences out of 15000+600000
+ 35840 strings out of 474116
+ 760319 string characters out of 5743682
+ 1955187 words of memory out of 5000000
+ 57661 multiletter control sequences out of 15000+600000
  576506 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,117p,1376b,1035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on pt623-project-plan.pdf (7 pages, 55745 bytes).
+Output written on pt623-project-plan.pdf (7 pages, 283681 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 6205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 6225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

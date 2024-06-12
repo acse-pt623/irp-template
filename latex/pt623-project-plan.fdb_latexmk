@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex pt623-project-plan"] 1717539175.7152 "pt623-project-plan.aux" "pt623-project-plan.bbl" "pt623-project-plan" 1717539177.34155 0
-  "./references.bib" 1717538492.01054 29815 50d3f05d4bcabec5f006213d43b011c6 ""
+["bibtex pt623-project-plan"] 1718202026.27901 "pt623-project-plan.aux" "pt623-project-plan.bbl" "pt623-project-plan" 1718202029.15871 0
+  "./references.bib" 1717614447.12911 29816 f238691ddf1dd877d0f0a9d01165b9ac ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "pt623-project-plan.aux" 1717539177.05495 2543 b93e8b54d0f6c87a5e45418d828d2fd3 "pdflatex"
+  "pt623-project-plan.aux" 1718202028.7022 3437 4b292cfb07236065ef1d099cf49dc38f "pdflatex"
   (generated)
   "pt623-project-plan.bbl"
   "pt623-project-plan.blg"
   (rewritten before read)
-["pdflatex"] 1717539175.81707 "pt623-project-plan.tex" "pt623-project-plan.pdf" "pt623-project-plan" 1717539177.34169 0
+["pdflatex"] 1718202026.45739 "pt623-project-plan.tex" "pt623-project-plan.pdf" "pt623-project-plan" 1718202029.15891 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -194,10 +194,14 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716890846.54113 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716890735 8221421 81e3d5d40f0c3142f57afe5fe122e1f9 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "pt623-project-plan.aux" 1717539177.05495 2543 b93e8b54d0f6c87a5e45418d828d2fd3 "pdflatex"
-  "pt623-project-plan.bbl" 1717539175.8107 6208 f318fa400b2c7e33fe336c8a1b26d3d2 "bibtex pt623-project-plan"
-  "pt623-project-plan.out" 1717539177.0571 717 e36b7c9e2ff17c2af8300d822b7bace0 "pdflatex"
-  "pt623-project-plan.tex" 1717539155.08971 16541 3181737c2d10be52a711b1adedb3418a ""
+  "figures/LSTM.png" 1718047010.13866 60597 cd937c1d6d9d8d27179a9c8d0464511f ""
+  "figures/LSTM_zoomed.png" 1718046435.90705 77713 159ff9e9a7f523d4e72549aaa65faef7 ""
+  "figures/transformer.png" 1718047110.44943 58308 fb1b717438159566c44e428fb3030f3b ""
+  "figures/transformer_zoomed.png" 1718047151.80112 77753 582f94e64019b95e7f19fa408f3f0692 ""
+  "pt623-project-plan.aux" 1718202028.7022 3437 4b292cfb07236065ef1d099cf49dc38f "pdflatex"
+  "pt623-project-plan.bbl" 1718202026.45001 6208 f318fa400b2c7e33fe336c8a1b26d3d2 "bibtex pt623-project-plan"
+  "pt623-project-plan.out" 1718202028.70535 717 e36b7c9e2ff17c2af8300d822b7bace0 "pdflatex"
+  "pt623-project-plan.tex" 1718202003.23721 17744 1fafb6ab68eabf9198436899eabbd8ca ""
   "report-template.cls" 1717507624.26865 2802 4ec763e799fa8c645dbeec2b65a10c41 ""
   (generated)
   "pt623-project-plan.aux"

@@ -194,31 +194,68 @@ Finally, copper prices are also influenced by other related products such as alu
 
 By achieving these objectives, the study aims to develop a robust and accurate model for predicting copper prices.
 
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{LSTM.png}
+        \caption{LSTM}
+        \label{fig:image1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{LSTM_zoomed.png}
+        \caption{LSTM zoomed}
+        \label{fig:image2}
+    \end{subfigure}
+
+    \vskip\baselineskip
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{transformer.png}
+        \caption{Transformer}
+        \label{fig:image3}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{transformer_zoomed.png}
+        \caption{Transformer zoomed}
+        \label{Transformer zoomed}
+    \end{subfigure}
+
+    \caption{Performance of LSTM and Transformer in only price dataset}
+    \label{fig:four_images}
+\end{figure}
+
 \section{Progress date}
 \begin{enumerate}
     \item \textbf{Data collection:} The data collection phase has been completed, with access to a variety of data sources related to copper prices.
-    
-    \item \textbf{Exploratory Data Analysis (EDA):} Preliminary exploratory data analysis was conducted on the collected data, including data distribution, outlier detection, and feature correlation analysis, etc.
-    
+        
     \item \textbf{Feature engineering:} Based on the exploratory data analysis, feature engineering was performed, including feature selection, missing value processing, and data cleaning.
     
-    \item \textbf{LSTM model construction:} Based on the cleaned data, an LSTM model has been constructed for copper price prediction, and the model has been trained and evaluated.
+    \item \textbf{LSTM model construction:} Based on the only previous price data, an LSTM model has been constructed for copper price prediction, and the model has been trained and evaluated. It can be used to predict last week price.
     
     \item \textbf{Analysis of prediction results:} The prediction results of the LSTM model have been analyzed, including evaluating the accuracy and stability of the model and comparing it with the actual data.
     
-    \item \textbf{Sentiment Analysis Model Integration:} Based on the prediction results, a sentiment analysis model is being integrated to consider the impact of social media sentiment on copper prices, and the model is being validated and evaluated.
+    \item \textbf{Transformer model construction:} Try to construct the Transformer model for copper price prediction, explore its effect in time series prediction, and compare and analyze it with the LSTM model.
+
+    \item \textbf{Comparison and analysis of results:} Compare and analyze the forecasting results of LSTM model and Transformer model, explore the advantages and disadvantages of both models, and put forward the corresponding conclusions and recommendations.
+
 \end{enumerate}
 
 \section{Future plan}
 \begin{enumerate}
+    \item \textbf{Exploratory Data Analysis (EDA):} Exploratory data analysis was conducted on the future collected data, including data distribution, outlier detection, and feature correlation analysis, etc, when garther more data.
+
+    \item \textbf{Sentiment Analysis Model Integration:} Based on the prediction results, a sentiment analysis model is being integrated to consider the impact of social media sentiment on copper prices, and the model is being validated and evaluated.
+
     \item \textbf{Model Optimization:} Continue to optimize the LSTM model, including adjusting the model architecture, hyper-parameter optimization, etc., in order to improve the prediction effect.
     
     \item \textbf{Sentiment Analysis Model Improvement:} Improve the Sentiment Analysis Model, consider more social media data and sentiment features, and integrate them into the copper price prediction model.
-    
-    \item \textbf{Transformer model construction:} Try to construct the Transformer model for copper price prediction, explore its effect in time series prediction, and compare and analyze it with the LSTM model.
-    
-    \item \textbf{Comparison and analysis of results:} Compare and analyze the forecasting results of LSTM model and Transformer model, explore the advantages and disadvantages of both models, and put forward the corresponding conclusions and recommendations.
-    
+            
     \item \textbf{Project Summary and Report:} Write a summary report of the project, including data collection, model construction, analysis of the experimental results, etc., and prepare presentation materials.
     
     \item \textbf{Possible Extended Research:} Explore the application of the model to the forecasting of other commodities or consider the influence of other external factors on the forecasting of copper prices, and provide directions for future research.
@@ -247,11 +284,11 @@ By achieving these objectives, the study aims to develop a robust and accurate m
         name=EDA
     ]{Exploratory Data Analysis (EDA)}{2024-06-06}{2024-06-12}\\ [grid]
     \ganttorangebar[
-        name=FeatureEngineering
-    ]{Feature Engineering}{2024-06-13}{2024-06-19}\\ [grid]
-    \ganttorangebar[
         name=LSTM
-    ]{LSTM Model Construction}{2024-06-20}{2024-06-26}\\ [grid]
+    ]{LSTM Model Construction}{2024-06-13}{2024-06-19}\\ [grid]
+    \ganttorangebar[
+        name=Transformer
+    ]{Transformer Model Construction}{2024-06-19}{2024-06-26}\\ [grid]
     \ganttorangebar[
         name=PredictionAnalysis
     ]{Analysis of Prediction Results}{2024-06-27}{2024-06-28}\\ [grid]
@@ -266,13 +303,16 @@ By achieving these objectives, the study aims to develop a robust and accurate m
     ]{Future Plan}{2024-07-6}{2024-08-30} \\[grid]
     \ganttbluebar[
         name=ModelOptimization
-    ]{Model Optimization}{2024-07-6}{2024-07-20}\\ [grid]
+    ]{Model Optimization using other dataset}{2024-07-6}{2024-07-20}\\ [grid]
+    \ganttorangebar[
+        name=FeatureEngineering
+    ]{Feature Engineering}{2024-07-6}{2024-06-10}\\ [grid]
     \ganttbluebar[
         name=SentimentImprovement
     ]{Sentiment Analysis Model Improvement}{2024-07-6}{2024-07-13}\\ [grid]
     \ganttbluebar[
-        name=Transformer
-    ]{Transformer Model Construction}{2024-07-13}{2024-08-09}\\ [grid]
+        name=Develop model
+    ]{Develop model and try others}{2024-07-13}{2024-08-10}\\ [grid]
     \ganttbluebar[
         name=Comparison
     ]{Comparison and Analysis of Results}{2024-08-10}{2024-08-19}\\ [grid]
